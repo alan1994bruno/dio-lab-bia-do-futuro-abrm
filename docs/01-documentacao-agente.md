@@ -55,10 +55,11 @@ flowchart TD
 
 | Componente | Descrição |
 | --- | --- |
-| Interface | Aplicação Web desenvolvida em Next.js |
-| LLM | Modelo de linguagem rodando localmente |
-| Base de Conhecimento | Documentos com conceitos (Juros, Inflação, Reserva de Emergência) e diretrizes de alocação educacional por idade (20 a 65+ anos) adaptadas ao Brasil |
+| Interface | Streamlit |
+| LLM | LLM	Ollama (local) |
+| Base de Conhecimento | JSON/CSV mockados na pasta data, além de documentos com conceitos (Juros, Inflação, Reserva de Emergência) e diretrizes de alocação educacional por idade (20 a 65+ anos) adaptadas ao Brasil |
 | Validação | Filtro interno que bloqueia qualquer sugestão de ação financeira direta ou recomendação de compra/venda |
+
 
 ---
 
